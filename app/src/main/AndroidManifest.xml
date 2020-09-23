@@ -16,8 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".JavaActivity" />
-        <activity android:name=".KotlinActivity" />
+        <activity android:name=".JavaActivity"
+            android:theme="@style/AppTheme.Slide"/>
+        <activity
+            android:name=".KotlinActivity"
+            android:theme="@style/AppTheme.Slide" />
     </application>
 
 </manifest>
